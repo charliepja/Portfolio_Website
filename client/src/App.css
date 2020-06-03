@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	background-color: #21759B;
+}
+
+.nav {
+	background-color: #007EE5;
+	width: 33vh;
+	height: 100vh;
+}
+
+.navText {
+	color: white;
+}
+
+.navImg {
+	width: 75%;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.navBio {
+	color: white;
+	width: 100%;
+	height: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #00B489;
+}
