@@ -15,7 +15,7 @@ class ProjectList extends Component {
 		const { projects } = this.props.project;
 		return (
 			<Container>
-				<ListGroup className='projectList' horizontal>
+				<ListGroup className='projectList d-flex flex-wrap' horizontal>
 					{projects.map((project) => (
 						<ListGroupItem className="text-center" key={project.id}>
 							<Project project={project} />

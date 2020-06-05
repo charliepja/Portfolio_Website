@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProjectLanguages from './ProjectLanguages.js'
 
 class Project extends Component {
 
@@ -13,7 +14,8 @@ class Project extends Component {
 				<br />
 				{project.description}
 				<br />
-				{languages}
+				<br />
+				<ProjectLanguages languages={project.languages} />
 				<br />
 				<a className="btn btn-primary projectBtn" href={project.github} role="button" size="sm">Github</a>
 				<a className="btn btn-primary projectBtn" href={project.website} role="button" size="sm">Website</a>
