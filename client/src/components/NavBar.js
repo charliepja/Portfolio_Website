@@ -17,7 +17,12 @@ class AppNavBar extends Component {
 					<img src="https://i.imgur.com/TAmWSEW.gif" className="navImg rounded-circle mx-auto d-block" alt="picture of person" />
 				</div>
 				<div className= "text-center navBio">
-					<p>Hi! I'm Charlie, and I'm a developer!</p>
+					<p>
+					Hi!<br /><br />
+					I'm Charlie, a Glasgow based software developer.<br /><br />
+					I recently completed CodeClan's 16 week intenseive Professional Software Development course where I was taught programming fundamentals via a hands on, interactive learning experience.
+					During the course, fundamentals were taught by learning languages such as Ruby, JavaScript, and Java, and then put into practise by completing projects in each language.<br />
+					</p>
 				</div>
 				<Nav className="mr-auto" vertical>
 					<NavItem>

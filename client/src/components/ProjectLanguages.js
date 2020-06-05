@@ -18,8 +18,8 @@ class ProjectLanguages extends Component {
 
 		for(const lang of languages) {
 			const program = ['java', 'javascript', 'ruby'];
-			const frame = ['sinatra', 'react.js', 'vue.js', 'express'];
-			const db = ['mongodb', 'postgres'];
+			const frame = ['sinatra', 'react.js', 'vue.js', 'express', 'discord.js'];
+			const db = ['mongodb', 'postgres', 'sqlite'];
 
 			if(program.includes(lang.toLowerCase())) {
 				programLangs.push(lang);

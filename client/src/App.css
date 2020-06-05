@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background-color: #21759B;
+	overflow: hidden;
 }
 
 .App {
@@ -48,6 +49,10 @@ body {
 	margin-bottom: 10px;
 }
 
+.projectItem {
+	margin: 1rem;
+}
+
 .projectBtn {
 	margin: 0.5rem;
 }
@@ -57,4 +62,7 @@ body {
 	height: 10vh;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	border-style: solid;
+	border-width: thin;
+	border-color: #00B489;
 }
