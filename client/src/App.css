@@ -46,3 +46,10 @@ body {
 .projectBtn {
 	margin: 0.5rem;
 }
+
+.projectImg {
+	width: 25vh;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
