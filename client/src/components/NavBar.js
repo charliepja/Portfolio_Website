@@ -11,7 +11,7 @@ class AppNavBar extends Component {
 		return (
 			<div className="nav text-center">
 				<div>
-					<img src="https://i.imgur.com/TAmWSEW.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
+					<img src="../../public/imgs/ghost_dance.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
 				</div>
 				<div className= "text-center navBio">
 					<p>
