@@ -5,10 +5,9 @@ class Project extends Component {
 
 	render() {
 		const { project } = this.props
-		const languages = project.languages.join(', ');
 		return (
 			<div>
-				<img src={`${process.env.PUBLIC_URL}${project.img}`} alt="website image" className="projectImg"/>
+				<img src={`${process.env.PUBLIC_URL}${project.img}`} alt="website" className="projectImg"/>
 				<br />
 				{project.name}
 				<br />

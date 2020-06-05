@@ -1,4 +1,3 @@
-import { v4 as uuid } from 'uuid';
 import { GET_PROJECTS, PROJECTS_LOADING } from '../actions/types.js';
 
 const initialState = {

@@ -6,15 +6,12 @@ import {
 } from 'reactstrap';
 
 class AppNavBar extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (
 			<div className="nav text-center">
 				<div>
-					<img src="https://i.imgur.com/TAmWSEW.gif" className="navImg rounded-circle mx-auto d-block" alt="picture of person" />
+					<img src="https://i.imgur.com/TAmWSEW.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
 				</div>
 				<div className= "text-center navBio">
 					<p>
