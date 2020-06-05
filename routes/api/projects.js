@@ -22,7 +22,10 @@ router.post('/', (req, res) => {
 	const newProject = new Project({
 		name: req.body.name,
 		languages: req.body.languages,
-		website: req.body.website
+		website: req.body.website,
+		github: req.body.github,
+		img: req.body.img,
+		description: req.body.description
 	});
 
 	newProject.save()

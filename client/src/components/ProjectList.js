@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Container, ListGroup, ListGroupItem, Button } from 'reactstrap';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { v4 as uuid } from 'uuid';
+import { Container, ListGroup, ListGroupItem } from 'reactstrap';
 import { connect } from 'react-redux';
 import { getProjects } from '../actions/projectActions.js';
 import PropTypes from 'prop-types';
+import Project from './Project.js';
 
 class ProjectList extends Component {
 
@@ -19,14 +18,7 @@ class ProjectList extends Component {
 				<ListGroup className='projectList' horizontal>
 					{projects.map((project) => (
 						<ListGroupItem className="text-center" key={project.id}>
-							{project.name}
-							<br />
-							<Button className="projectBtn" color="primary" size="sm">
-								Github
-							</Button>
-							<Button className="projectBtn" color="primary" size="sm">
-								Website
-							</Button>
+							<Project project={project} />
 						</ListGroupItem>
 					))}
 				</ListGroup>

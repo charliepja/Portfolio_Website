@@ -15,6 +15,18 @@ const ProjectSchema = new Schema({
 	website: {
 		type: String,
 		required: true
+	},
+	github: {
+		type: String,
+		required: true
+	},
+	img: {
+		type: String,
+		required: true
+	},
+	description: {
+		type: String,
+		required: true
 	}
 });
 
