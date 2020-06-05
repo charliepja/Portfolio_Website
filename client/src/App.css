@@ -8,6 +8,11 @@ body {
 	flex-direction: row;
 }
 
+.AppBody {
+	display: flex;
+	flex-direction: column;
+}
+
 .nav {
 	background-color: #007EE5;
 	width: 33vh;

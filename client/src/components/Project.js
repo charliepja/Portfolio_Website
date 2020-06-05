@@ -4,6 +4,7 @@ class Project extends Component {
 
 	render() {
 		const { project } = this.props
+		const languages = project.languages.join(', ');
 		return (
 			<div>
 				<img src={`${process.env.PUBLIC_URL}${project.img}`} alt="website image" className="projectImg"/>
@@ -11,6 +12,8 @@ class Project extends Component {
 				{project.name}
 				<br />
 				{project.description}
+				<br />
+				{languages}
 				<br />
 				<a className="btn btn-primary projectBtn" href={project.github} role="button" size="sm">Github</a>
 				<a className="btn btn-primary projectBtn" href={project.website} role="button" size="sm">Website</a>
