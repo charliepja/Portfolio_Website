@@ -11,7 +11,7 @@ class AppNavBar extends Component {
 		return (
 			<div className="nav text-center">
 				<div>
-					<img src="../../public/imgs/ghost_dance.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
+					<img src="/imgs/ghost_dance.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
 				</div>
 				<div className= "text-center navBio">
 					<p>
@@ -28,12 +28,12 @@ class AppNavBar extends Component {
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink href="/" className="navText">
+						<NavLink href="https://github.com/charliepja" className="navText">
 							Github
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink href="/" className="navText">
+						<NavLink href="https://www.linkedin.com/in/charlieanderson1993/" className="navText">
 							LinkedIn
 						</NavLink>
 					</NavItem>
