@@ -16,8 +16,8 @@ class Project extends Component {
 				<br />
 				<ProjectLanguages languages={project.languages} />
 				<br />
-				<a className="btn btn-primary projectBtn" href={project.github} role="button" size="sm">Github</a>
-				<a className="btn btn-primary projectBtn" href={project.website} role="button" size="sm">Website</a>
+				<a className="btn btn-primary projectBtn" href={project.github} target="_blank" role="button" size="sm">Github</a>
+				<a className="btn btn-primary projectBtn" href={project.website} target="_blank" role="button" size="sm">Website</a>
 			</div>
 		)
 	}
