@@ -16,7 +16,8 @@ body {
 .nav {
 	background-color: #007EE5;
 	width: 33vh;
-	height: 100vmax;
+	height: 100vmin;
+	overflow: hidden;
 }
 
 .navText {
