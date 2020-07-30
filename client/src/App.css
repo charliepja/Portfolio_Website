@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background-color: #21759B;
+	overflow: scroll;
 }
 
 .App {
@@ -17,7 +18,6 @@ body {
 	background-color: #007EE5;
 	width: 33vh;
 	height: 100vmin;
-	overflow: hidden;
 }
 
 .navText {
