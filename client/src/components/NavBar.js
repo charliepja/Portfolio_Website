@@ -27,7 +27,7 @@ class AppNavBar extends Component {
 					* Current Project<br />
 					</p>
 				</div>
-				<Nav className="mr-auto" vertical>
+				<Nav className="mr-auto navbar-expand" vertical>
 					<NavItem>
 						<NavLink href="/" className="navText">
 							Home
