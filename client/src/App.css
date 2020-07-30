@@ -42,6 +42,11 @@ body {
 	border-color: #00B489;
 }
 
+.nBar {
+	height: fit-content;
+	padding: 2vh;
+}
+
 .projectList {
 	width: 100%;
 	height: auto;
