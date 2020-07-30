@@ -9,7 +9,7 @@ class AppNavBar extends Component {
 
 	render() {
 		return (
-			<div className="nav navbar-expand-lg text-center">
+			<div className="nav text-center">
 				<div>
 					<img src="/imgs/ghost_dance.gif" className="navImg rounded-circle mx-auto d-block" alt="person" />
 				</div>
